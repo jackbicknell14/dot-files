@@ -1,0 +1,29 @@
+alias ob="vim ~/.bash_profile"
+alias eb="sudo nano ~/.bash_profile"
+alias aml="cd ~/sandboxes/mohawk-backend && source venv/bin/activate"
+md () {
+    mkdir "$1" && cd "$1"
+}
+
+
+# make rum safer
+alias rm='rm -iv'
+
+# various ls formats:
+alias ls='ls ${colorflag}'
+alias lf='ls -F ${colorflag}'
+alias la='lf -A ${colorflag}'
+alias lar='ls -R -A ${colorflag}'
+alias lr='ls -R ${colorflag}'
+alias ld='lf -ld ${colorflag}'
+alias ll='lf -lA ${colorflag}'
+alias lx='lf -l ${colorflag}'
+
+# git commands:
+alias glog="git log --oneline --decorate --all --graph"
+alias plog="git log --pretty=format:'%h %an %s'"
+
+# virtualenvs
+venv(){
+    source ~/Documents/venvs/$1/bin/activate
+}
