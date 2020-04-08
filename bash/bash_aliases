@@ -6,6 +6,8 @@ md () {
 }
 
 
+alias tdmdb=~/sandboxes/utils/tear_down_mohawk_db.sh
+alias actvenv="source venv/bin/activate"
 # make rum safer
 alias rm='rm -iv'
 
