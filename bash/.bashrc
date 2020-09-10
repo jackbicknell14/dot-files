@@ -26,7 +26,8 @@ source "$HOME/.ourfm_creds"
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-alias aml="tmuxinator start mohawk"
+alias tmuxpy="tmuxinator start python"
+alias amm="tmuxinator start moneymachine"
 eval "$(pyenv init -)"
 
 alias escreds="sudo vim ~/.es_creds"
