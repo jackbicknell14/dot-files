@@ -1,0 +1,25 @@
+# ./.tmuxinator.yml
+
+name: mohawk
+root: ~/sandboxes/mohawk-backend
+
+windows:
+  - mohawk:
+      layout: main-horizontal
+      # Synchronize all panes of this window, can be enabled before or after the pane commands run.
+      # 'before' represents legacy functionality and will be deprecated in a future release, in favour of 'after'
+      # synchronize: after
+      panes:
+        - git status
+        - ipython --profile=ipython-mohawk
+        - ptw --clear --nobeep --quiet -- --tb=no
+        - flask run
+  
+  - db: psql 
+  - logs: 
+     layout: even-horizontal
+     panes:
+        - heroku logs --tail -a es-apiv2-qa
+  - pr: cd ~/sandboxes/mohawk-pr && git status
+  - jupyter: cd ~/analytics && conda activate base
+ 
