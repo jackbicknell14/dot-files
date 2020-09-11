@@ -28,6 +28,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 alias tmuxpy="tmuxinator start python"
 alias amm="tmuxinator start moneymachine"
+alias aml="tmuxinator start mohawk"
 eval "$(pyenv init -)"
 
 alias escreds="sudo vim ~/.es_creds"
