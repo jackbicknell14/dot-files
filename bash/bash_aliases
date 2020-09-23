@@ -1,7 +1,0 @@
-# make rum safer
-alias rm='rm -iv'
-
-# git commands:
-alias glog="git log --oneline --decorate --all --graph"
-alias plog="git log --pretty=format:'%h %an %s'"
-

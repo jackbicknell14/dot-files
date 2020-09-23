@@ -14,7 +14,6 @@ export PATH=$PATH:/usr/local/sbin
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -22,22 +21,9 @@ export NVM_DIR="$HOME/.nvm"
 source "$HOME/.es_creds"
 source "$HOME/.keys"
 source "$HOME/.ourfm_creds"
-
+source "$HOME/.bash_aliases"
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-
-alias tmuxpy="tmuxinator start python"
-alias amm="tmuxinator start moneymachine"
-alias aml="tmuxinator start mohawk"
-eval "$(pyenv init -)"
-
-alias escreds="sudo vim ~/.es_creds"
-alias fixup="git add . && git commit --fixup HEAD && git rebase -i master --autosquash && git push --force-with-lease"
-alias gap="git add . && git commit -m 'updated materials' && git push && git push heroku master"
-createdir ()
-{
-    mkdir "$1" && cd "$1"
-}
 
 # added by Anaconda3 2019.10 installer
 
