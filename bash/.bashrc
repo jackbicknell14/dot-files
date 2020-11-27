@@ -1,4 +1,18 @@
+# Aliases layer
+source ~/.dotfiles/bash/.bash_aliases
+
+# Keys layer
+source "$HOME/.es_creds"
+source "$HOME/.keys"
+source "$HOME/.ourfm_creds"
+
+
+# Legacy config layer
+
 export EDITOR="vim"
+
+# Python multithreading
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
 # Tmuxinator
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
@@ -19,25 +33,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-source "$HOME/.es_creds"
-source "$HOME/.keys"
-source "$HOME/.ourfm_creds"
-
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-alias tmuxpy="tmuxinator start python"
-alias amm="tmuxinator start moneymachine"
-alias aml="tmuxinator start mohawk"
 eval "$(pyenv init -)"
 
-alias escreds="sudo vim ~/.es_creds"
-alias fixup="git add . && git commit --fixup HEAD && git rebase -i master --autosquash && git push --force-with-lease"
-alias gap="git add . && git commit -m 'updated materials' && git push && git push heroku master"
-createdir ()
-{
-    mkdir "$1" && cd "$1"
-}
 
 # added by Anaconda3 2019.10 installer
 

@@ -16,10 +16,21 @@ windows:
         - flask run
   
   - db: psql 
+
+  - jobs: 
+     layout: main-vertical
+     panes: 
+       -
+       - redis-server
+       - celery worker -A englishscore.interfaces.tasks.celery_worker.celery --loglevel=info
+       - celery -A englishscore.interfaces.tasks.celery_worker.celery beat
+
   - logs: 
      layout: even-horizontal
      panes:
         - heroku logs --tail -a es-apiv2-qa
+
   - pr: cd ~/sandboxes/mohawk-pr && git status
+
   - jupyter: cd ~/analytics && conda activate base
  
