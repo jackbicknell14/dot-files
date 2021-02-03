@@ -1,14 +1,4 @@
-# Aliases layer
-source ~/.dotfiles/bash/.bash_aliases
-
-# Keys layer
-source "$HOME/.es_creds"
-source "$HOME/.keys"
-source "$HOME/.ourfm_creds"
-
-
 # Legacy config layer
-
 export EDITOR="vim"
 
 # Python multithreading
@@ -24,10 +14,24 @@ export PATH="$HOME/.serverless/bin:$PATH"
 # PyEnv Config
 
 export PATH="$HOME/.pyenv/bin:$PATH"
+export PATH=~/.pyenv/shims:$PATH
 export PATH=$PATH:/usr/local/sbin
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
+
+# Java/Kotlin Config
+
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home"
+export ANDROID_HOME="/Users/jackbicknell/Library/Android/sdk"
+
+# Android emulator
+export PATH="/Users/jackbicknell/Library/Android/sdk/emulator:${PATH}"
+
+# Flutter config
+export PATH="$PATH:/Users/jackbicknell/sandboxes/flutter/bin"
+
+# Node Config
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -53,3 +57,5 @@ else
 fi
 unset __conda_setup
 # <<< conda init <<<
+
+

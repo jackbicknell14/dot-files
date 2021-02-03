@@ -1,12 +1,10 @@
 # Unix
+alias ls="ls -a"
 alias ll="ls -al"
 alias ln="ln -v"
 alias e="$EDITOR"
 alias v="$VISUAL"
-
-# Bash
-alias ls="ls -a"
-mkdir () {mkdir -p "$1" && cd "$1"}
+alias rmbu="find ./ -name \"#*#\" | xargs rm"
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
@@ -24,12 +22,14 @@ eval kill  $matching_ports
 }
 
 
-# edit config 
-alias es="vim ~/.es_creds && sz"
-alias a="vim ~/.dotfiles/bash/.bash_aliases && sz"
-alias alk="vim ~/.dotfiles/bash/.bash_aliases"
+# Shortcuts  
+alias chocolate="cd ~/.dotfiles/.chocolate"
+alias config="vim ~/.dotfiles/.chocolate/.config"
+alias scripts="cd ~/.dotfiles/scripts"
+alias a="vim ~/.dotfiles/.chocolate/.aliases"
 alias dots="cd ~/.dotfiles"
-alias mo="cd ~/sandboxes/mohawk-backend/"
+alias creds="source ./.creds"
+alias sb="cd ~/sandboxes"
 
 # git commands:
 alias glog="git log --oneline --decorate --all --graph"
@@ -42,24 +42,27 @@ alias gb="git branch -a"
 alias gp="git push"
 alias gpf="git push --force-with-lease"
 
+gcon() {git checkout -b "$1"}
 gco () {git checkout "$1" && git pull}
 gr () {git rebase -i "$1"}
 gbd () {git branch -D "$1" && git remote prune origin && gb}
 
 # music
-alias ms="~/.dotfiles/bash/open_music.sh"
-alias endms="~/.dotfiles/bash/close_music.sh"
+alias music="~/.dotfiles/bash/open_music.sh"
+alias endm="~/.dotfiles/bash/close_music.sh"
 
 # dev
-alias dev="~/.dotfiles/bash/open_dev.sh"
-alias enddev="~/.dotfiles/bash/close_dev.sh"
+alias dev="~/.dotfiles/scripts/open_dev.sh"
+alias endd="~/.dotfiles/scripts/close_dev.sh"
+alias slack="open -a Slack"
 
-# tmux
-alias aml="sz && dev && tmuxinator start mohawk"
-alias tmuxpy="tmuxinator start python"
-alias amm="tmuxinator start moneymachine"
-alias aga="tmuxinator start ga"
+createproject () {~/sandboxes/template/setup.zsh "$1"}
+
+# load tmuxinator aliases
+source ~/.dotfiles/.tmuxinator/.aliases
+alias ta="cd ~/.dotfiles/.tmuxinator"
 
 
-
+# android
+alias pixel="emulator -avd Pixel_3_API_29 -dns-server 8.8.8.8"
 

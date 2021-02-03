@@ -10,27 +10,32 @@ windows:
       # 'before' represents legacy functionality and will be deprecated in a future release, in favour of 'after'
       # synchronize: after
       panes:
-        - git status
+        -  shell_command:
+             - git status
         - ipython --profile=ipython-mohawk
         - ptw --clear --nobeep --quiet -- --tb=no
         - flask run
-  
-  - db: psql 
 
-  - jobs: 
+  - db: psql
+
+  - htop: htop
+
+  - jobs:
      layout: main-vertical
-     panes: 
+     panes:
        -
        - redis-server
        - celery worker -A englishscore.interfaces.tasks.celery_worker.celery --loglevel=info
        - celery -A englishscore.interfaces.tasks.celery_worker.celery beat
 
-  - logs: 
+  - logs:
      layout: even-horizontal
      panes:
         - heroku logs --tail -a es-apiv2-qa
 
   - pr: cd ~/sandboxes/mohawk-pr && git status
 
+  - ios: cd ~/sandboxes/ios-app
+
   - jupyter: cd ~/analytics && conda activate base
- 
+

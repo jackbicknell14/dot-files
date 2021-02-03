@@ -11,7 +11,7 @@ noremap! <Right> <Esc>
 set colorcolumn=+1
 
 " Make it obvious where 80 characters is
-set textwidth=80
+set textwidth=120
 
 " Numbers
 set number

@@ -1,5 +1,3 @@
-source ~/.bashrc
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -69,7 +67,7 @@ ZSH_THEME="ys"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git heroku python pip osx chucknorris)
+plugins=(osx)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,4 +97,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-[[ -f ~/.bash_aliases ]] && source ~/.bash_aliases
+source ~/.dotfiles/.chocolate/.config
