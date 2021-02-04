@@ -98,3 +98,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source ~/.dotfiles/.chocolate/.config
+
+# heroku autocomplete setup
+HEROKU_AC_ZSH_SETUP_PATH=/Users/jackbicknell/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
