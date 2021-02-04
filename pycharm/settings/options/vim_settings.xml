@@ -1,0 +1,741 @@
+<application>
+  <component name="VimEditorSettings">
+    <editor>
+      <key-repeat enabled="true" />
+    </editor>
+  </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry>get_lat</entry>
+        <entry>get_latest_sittin</entry>
+        <entry>UUID</entry>
+        <entry>user_com</entry>
+        <entry>user_co</entry>
+        <entry>.Engl</entry>
+        <entry>English</entry>
+        <entry>scoring.sc</entry>
+        <entry>scoring.</entry>
+        <entry>score.En</entry>
+        <entry>{**</entry>
+        <entry>{</entry>
+        <entry>class Atom</entry>
+        <entry>.true</entry>
+        <entry>expression.true</entry>
+        <entry>ENUM</entry>
+        <entry>Enum</entry>
+        <entry>display</entry>
+        <entry>class ProductPr</entry>
+        <entry>strike</entry>
+      </history-search>
+      <history-cmd>
+        <entry>50</entry>
+        <entry>149</entry>
+        <entry>x</entry>
+        <entry>96</entry>
+        <entry>120</entry>
+        <entry>252</entry>
+        <entry>41</entry>
+        <entry>277</entry>
+        <entry>5</entry>
+        <entry encoding="base64">JzwsJz5lY2hvZSAiVXNlIGgi</entry>
+        <entry>echoe &quot;Use h&quot;</entry>
+        <entry>echoe &quot;Use j&quot;</entry>
+        <entry>q</entry>
+        <entry>w</entry>
+        <entry>echoe &quot;Use l&quot;</entry>
+        <entry>238</entry>
+        <entry>9</entry>
+        <entry>echoe &quot;Use k&quot;</entry>
+        <entry>95</entry>
+        <entry>48</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimKeySettings">
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed W</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed G</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed J</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed O</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed P</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed E</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed K</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed Q</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed H</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed M</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed N</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed T</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed I</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed L</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/atoms.py" timestamp="1612441850924">
+        <mark key="'" line="95" column="28" />
+        <mark key="]" line="13" column="77" />
+        <mark key="^" line="13" column="77" />
+        <mark key="." line="13" column="76" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/interfaces/api/v1_11/test_get_products_v1_11.py" timestamp="1612436674779" />
+      <file name="/a.dummy" timestamp="1612440859947">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/tests/conftest.py" timestamp="1612438043882">
+        <mark key="'" line="75" column="47" />
+        <mark key="[" line="92" column="15" />
+        <mark key="]" line="92" column="16" />
+        <mark key="." line="92" column="15" />
+        <mark key="^" line="92" column="16" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/products.py" timestamp="1612454779503">
+        <mark key="'" line="159" column="43" />
+        <mark key="[" line="37" column="71" />
+        <mark key="]" line="37" column="71" />
+        <mark key="." line="37" column="71" />
+        <mark key="^" line="37" column="79" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/tests/unit/domain/exam/test_score.py" timestamp="1612437694791">
+        <mark key="[" line="223" column="0" />
+        <mark key="]" line="223" column="0" />
+        <mark key="^" line="209" column="55" />
+        <mark key="." line="223" column="0" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/products/__init__.py" timestamp="1612454759540">
+        <mark key="'" line="180" column="57" />
+        <mark key="[" line="183" column="0" />
+        <mark key="]" line="183" column="0" />
+        <mark key="." line="183" column="0" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/tests/unit/use_cases/exam/test_scoring.py" timestamp="1612366222212">
+        <mark key="'" line="8" column="19" />
+        <mark key="[" line="9" column="27" />
+        <mark key="]" line="9" column="27" />
+        <mark key="^" line="9" column="38" />
+        <mark key="." line="9" column="27" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/spoken/atoms.py" timestamp="1612441786500">
+        <mark key="'" line="19" column="4" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/exam/scoring.py" timestamp="1612437848123">
+        <mark key="'" line="3" column="42" />
+        <mark key="[" line="3" column="19" />
+        <mark key="." line="3" column="23" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/use_cases/exam/test_submit_score.py" timestamp="1612437910915">
+        <mark key="'" line="245" column="40" />
+        <mark key="[" line="365" column="35" />
+        <mark key="]" line="365" column="40" />
+        <mark key="^" line="365" column="40" />
+        <mark key="." line="365" column="39" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/spoken/atoms.py" timestamp="1612441779443">
+        <mark key="'" line="58" column="4" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" timestamp="1612454331890">
+        <mark key="'" line="233" column="0" />
+        <mark key="[" line="94" column="20" />
+        <mark key="]" line="94" column="26" />
+        <mark key="^" line="94" column="26" />
+        <mark key="." line="94" column="25" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/interfaces/api/v1_1/test_get_products.py" timestamp="1612364052806">
+        <mark key="[" line="9" column="39" />
+        <mark key="]" line="9" column="40" />
+        <mark key="." line="9" column="40" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/migrations/versions/000112_cb3e3458725d_created_difficult_flag_flag_for_.py" timestamp="1612437248570">
+        <mark key="[" line="21" column="0" />
+        <mark key="]" line="21" column="0" />
+        <mark key="." line="21" column="0" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/products/products.py" timestamp="1612454023240">
+        <mark key="'" line="23" column="48" />
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="16" column="51" />
+        <mark key="." line="15" column="0" />
+        <mark key="^" line="12" column="41" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_1/exam.py" timestamp="1612437706122">
+        <mark key="'" line="57" column="71" />
+        <mark key="[" line="55" column="117" />
+        <mark key="]" line="55" column="118" />
+        <mark key="^" line="55" column="118" />
+        <mark key="." line="55" column="117" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/migrations/versions/000114_6eb1626a6b4c_added_is_markable_boolean_for_atoms.py" timestamp="1612441550949">
+        <mark key="[" line="30" column="29" />
+        <mark key="]" line="30" column="29" />
+        <mark key="." line="30" column="29" />
+        <mark key="^" line="21" column="75" />
+      </file>
+      <file name="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/exam/score.py" timestamp="1612437868165">
+        <mark key="[" line="108" column="85" />
+        <mark key="]" line="108" column="86" />
+        <mark key="^" line="108" column="86" />
+        <mark key="." line="108" column="85" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="355" column="19" filename="$USER_HOME$/.pyenv/versions/mohawk-backend/lib/python3.9/site-packages/sqlalchemy/sql/sqltypes.py" />
+      <jump line="164" column="17" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/products/__init__.py" />
+      <jump line="230" column="0" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="445" column="25" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="446" column="4" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="447" column="35" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="524" column="21" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="185" column="4" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="194" column="50" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="202" column="21" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="206" column="32" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="54" column="10" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/interfaces/api/v1_11/test_products.py" />
+      <jump line="208" column="58" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="234" column="21" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="186" column="39" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="58" column="26" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/interfaces/api/v1_11/test_products.py" />
+      <jump line="56" column="15" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/interfaces/api/v1_11/test_products.py" />
+      <jump line="67" column="24" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/interfaces/api/v1_11/test_products.py" />
+      <jump line="19" column="44" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/products/products.py" />
+      <jump line="113" column="25" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/products/__init__.py" />
+      <jump line="148" column="111" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/products.py" />
+      <jump line="0" column="51" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/products.py" />
+      <jump line="12" column="4" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/products/products.py" />
+      <jump line="7" column="15" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/products.py" />
+      <jump line="149" column="48" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/products.py" />
+      <jump line="16" column="75" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/interfaces/api/v1_11/test_products.py" />
+      <jump line="38" column="11" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/interfaces/api/v1_11/test_products.py" />
+      <jump line="86" column="37" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/interfaces/api/v1_11/test_products.py" />
+      <jump line="57" column="10" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/interfaces/api/v1_11/test_products.py" />
+      <jump line="78" column="30" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/interfaces/api/v1_11/test_products.py" />
+      <jump line="60" column="10" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/interfaces/api/v1_11/test_products.py" />
+      <jump line="15" column="26" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/spoken/atoms.py" />
+      <jump line="47" column="4" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/spoken/operations.py" />
+      <jump line="19" column="30" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/spoken/atoms.py" />
+      <jump line="48" column="14" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/spoken/operations.py" />
+      <jump line="128" column="40" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/atoms.py" />
+      <jump line="150" column="36" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/products.py" />
+      <jump line="21" column="28" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/products/products.py" />
+      <jump line="232" column="0" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="242" column="42" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/conftest.py" />
+      <jump line="247" column="29" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/conftest.py" />
+      <jump line="261" column="65" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/conftest.py" />
+      <jump line="262" column="56" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/conftest.py" />
+      <jump line="263" column="56" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/conftest.py" />
+      <jump line="264" column="40" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/conftest.py" />
+      <jump line="276" column="26" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/conftest.py" />
+      <jump line="239" column="27" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/conftest.py" />
+      <jump line="233" column="23" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/conftest.py" />
+      <jump line="21" column="14" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/interfaces/api/v1_11/test_products.py" />
+      <jump line="11" column="88" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="4" column="51" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/exam/scoring.py" />
+      <jump line="65" column="8" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/exam/scoring.py" />
+      <jump line="74" column="4" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/exam/scoring.py" />
+      <jump line="5" column="28" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/unit/use_cases/exam/test_scoring.py" />
+      <jump line="8" column="19" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/unit/use_cases/exam/test_scoring.py" />
+      <jump line="52" column="4" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/exam/scoring.py" />
+      <jump line="66" column="37" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/exam/scoring.py" />
+      <jump line="84" column="40" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_1/exam.py" />
+      <jump line="31" column="23" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/exam/scoring.py" />
+      <jump line="148" column="23" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/exam/score.py" />
+      <jump line="30" column="43" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/exam/scoring.py" />
+      <jump line="43" column="55" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/exam/score.py" />
+      <jump line="120" column="14" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/exam/score.py" />
+      <jump line="11" column="10" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/exam/scoring.py" />
+      <jump line="65" column="24" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_1/exam.py" />
+      <jump line="59" column="71" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_1/exam.py" />
+      <jump line="121" column="40" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/products.py" />
+      <jump line="3" column="38" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/products.py" />
+      <jump line="5" column="49" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/products.py" />
+      <jump line="220" column="27" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/conftest.py" />
+      <jump line="7" column="16" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/use_cases/exam/test_submit_score.py" />
+      <jump line="13" column="0" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/exam/scoring.py" />
+      <jump line="3" column="42" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/exam/scoring.py" />
+      <jump line="123" column="1" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/exam/score.py" />
+      <jump line="375" column="19" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/use_cases/exam/test_submit_score.py" />
+      <jump line="365" column="40" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/use_cases/exam/test_submit_score.py" />
+      <jump line="245" column="40" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/functional/use_cases/exam/test_submit_score.py" />
+      <jump line="50" column="4" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/conftest.py" />
+      <jump line="75" column="47" filename="$USER_HOME$/sandboxes/mohawk-backend/tests/conftest.py" />
+      <jump line="554" column="0" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="93" column="75" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="133" column="54" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="100" column="18" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="17" column="7" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/spoken/atoms.py" />
+      <jump line="58" column="4" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/spoken/atoms.py" />
+      <jump line="20" column="52" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/spoken/atoms.py" />
+      <jump line="19" column="4" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/spoken/atoms.py" />
+      <jump line="121" column="16" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/atoms.py" />
+      <jump line="27" column="80" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/atoms.py" />
+      <jump line="97" column="28" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/atoms.py" />
+      <jump line="124" column="77" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/products.py" />
+      <jump line="28" column="35" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/products.py" />
+      <jump line="81" column="8" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="233" column="0" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/data/models.py" />
+      <jump line="6" column="29" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/products/products.py" />
+      <jump line="18" column="17" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/products/__init__.py" />
+      <jump line="156" column="43" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/interfaces/api/v1_11/products.py" />
+      <jump line="23" column="48" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/use_cases/products/products.py" />
+      <jump line="167" column="18" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/products/__init__.py" />
+      <jump line="180" column="57" filename="$USER_HOME$/sandboxes/mohawk-backend/englishscore/domain/products/__init__.py" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="a" type="4">
+        <keys>
+          <key char="65535" code="86" mods="130" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="36" code="0" mods="0" />
+          <key char="120" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+        </keys>
+      </register>
+      <register name="&quot;" type="4">
+        <text>Integer</text>
+      </register>
+      <register name="d" type="4">
+        <keys>
+          <key char="102" code="0" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="67" code="0" mods="0" />
+          <key char="102" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="115" code="0" mods="0" />
+          <key char="46" code="0" mods="0" />
+          <key char="83" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="103" code="0" mods="0" />
+          <key char="44" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="94" code="0" mods="0" />
+        </keys>
+      </register>
+      <register name="f" type="4">
+        <keys>
+          <key char="105" code="0" mods="0" />
+          <key char="39" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="36" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="39" code="0" mods="0" />
+          <key char="44" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+        </keys>
+      </register>
+      <register name="*" type="4">
+        <text>ISO4217_Currency</text>
+      </register>
+      <register name="-" type="4">
+        <text>Integer</text>
+      </register>
+      <register name="/" type="4">
+        <text>strike</text>
+      </register>
+      <register name="0" type="4">
+        <text>attribute='price'</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBwcm9kdWN0X3ByaWNlLm9wdGlvbmFsX3N0cmlrZXRocm91Z2ggPSAK</text>
+      </register>
+      <register name="q" type="4">
+        <text>jjjjj</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAib2ZmZXJfdGV4dCI6IGZpZWxkcy5TdHJpbmcoYXR0cmlidXRlPSdzdHJpa2V0aHJvdWdoX29mZmVyJyksCg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICJvcHRpb25hbF9zdHJpa2V0aHJvdWdoIjogZmllbGRzLk5lc3RlZChzdHJpa2V0aHJvdWdoX21vZGVsKQo=</text>
+      </register>
+      <register name="s" type="4">
+        <keys>
+          <key char="119" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="39" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="65" code="0" mods="0" />
+          <key char="39" code="0" mods="0" />
+          <key char="44" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="48" code="0" mods="0" />
+        </keys>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgYnJlYWtwb2ludCgpCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGF0b20uaXNfbWFya2FibGUgPSBUcnVlIGlmIG5vdCBhdG9tX3Jlc3BvbnNlLmdldCgnaXNzdWVzJykgZWxzZSBGYWxzZQo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGF0b20uaXNfbWFya2FibGUgPSBGYWxzZQo=</text>
+      </register>
+      <register name="w" type="4">
+        <keys>
+          <key char="65535" code="86" mods="130" />
+          <key char="49" code="0" mods="0" />
+          <key char="53" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="36" code="0" mods="0" />
+          <key char="120" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="57" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+        </keys>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIGVsc2U6Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name=":" type="4">
+        <text>48</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search>strike</last-search>
+      <last-offset />
+      <last-pattern>strike</last-pattern>
+      <last-replace>~</last-replace>
+      <last-substitute>model</last-substitute>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+  <component name="VimSettings">
+    <state version="6" enabled="true" />
+    <notifications>
+      <idea-join enabled="true" />
+      <idea-put enabled="false" />
+    </notifications>
+  </component>
+</application>
