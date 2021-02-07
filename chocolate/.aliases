@@ -23,10 +23,10 @@ eval kill  $matching_ports
 
 
 # Shortcuts  
-alias chocolate="cd ~/.dotfiles/.chocolate"
-alias config="vim ~/.dotfiles/.chocolate/.config"
+alias chocolate="cd ~/.dotfiles/chocolate"
+alias config="vim ~/.dotfiles/chocolate/.config"
 alias scripts="cd ~/.dotfiles/scripts"
-alias a="vim ~/.dotfiles/.chocolate/.aliases"
+alias a="vim ~/.dotfiles/chocolate/.aliases"
 alias dots="cd ~/.dotfiles"
 alias creds="source ./.creds"
 alias sb="cd ~/sandboxes"
@@ -59,10 +59,13 @@ alias slack="open -a Slack"
 createproject () {~/sandboxes/template/setup.zsh "$1"}
 
 # load tmuxinator aliases
-source ~/.dotfiles/.tmuxinator/.aliases
-alias ta="cd ~/.dotfiles/.tmuxinator"
+source ~/.dotfiles/tmuxinator/.aliases
+alias tm="cd ~/.dotfiles/tmuxinator"
 
 
 # android
 alias pixel="emulator -avd Pixel_3_API_29 -dns-server 8.8.8.8"
+
+# postgres
+alias psql="psql -U postgres"
 

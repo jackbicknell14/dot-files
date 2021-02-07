@@ -3,7 +3,7 @@
 # dev installs
 # firefox, iterm2, spotify, postman, whatsapp, slack
 # pgAdmin4, pycharm, emacs, xcode, whatsapp, android studio
-# vs code, 
+# vs code, redis, postgresql12, 
 
 # music installs
 # splice, logic pro x, metronome x
@@ -40,14 +40,10 @@ brew tap heroku/brew && brew install heroku
 heroku autocomplete
 printf "$(heroku autocomplete:script zsh)" >> ~/.zshrc; source ~/.zshrc
 
-# postgres
-brew install postgresql@12
-
-
 # symbolic links
 
 ln ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
-ln -s  ~/.dotfiles/.tmuxinator/ ~/.config/tmuxinator
-ln ~/.dotfiles/.zsh/.zshenv ~/.zshenv
-ln ~/.dotfiles/.zsh/.zshrc ~/.zshrc
+ln -s  ~/.dotfiles/tmuxinator ~/.config/
+ln ~/.dotfiles/zsh/.zshenv ~/.zshenv
+ln ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln ~/.dotfiles/vim/.vimrc ~/.vimrc
