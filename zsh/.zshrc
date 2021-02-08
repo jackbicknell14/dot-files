@@ -97,4 +97,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source ~/.dotfiles/.chocolate/.config
+source ~/.dotfiles/chocolate/.config
+
+# heroku autocomplete setup
+HEROKU_AC_ZSH_SETUP_PATH=/Users/jackbicknell/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
