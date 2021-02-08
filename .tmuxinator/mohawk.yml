@@ -12,7 +12,7 @@ windows:
       panes:
         -  shell_command:
              - git status
-        - ipython --profile=ipython-mohawk
+        - ipython3 --profile=ipython-mohawk
         - ptw --clear --nobeep --quiet -- --tb=no
         - flask run
 
