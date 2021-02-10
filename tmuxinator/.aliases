@@ -1,5 +1,5 @@
-alias mohawk="tmuxinator start mohawk"
+alias mohawk="sb && cd mohawk-backend && creds && tmuxinator start mohawk"
 alias ga="tmuxinator start ga"
 alias playground="tmuxinator start playground"
-alias ourfm="tmuxinator start ourfm"
+alias ourfm="sb && cd our-fm && creds && tmuxinator start ourfm"
 alias sourmash="tmuxinator start sour-mash"
