@@ -10,18 +10,14 @@
 
 # run after cloning for the first time
 cd ~ 
-# mv dot-files ~/.dotfiles
-# mkdir .config/tmuxinator
-# cd ~
+mv dot-files ~/.dotfiles
+cd ~
 
 # install homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew update
-brew install cask
-brew cask install iterm2
-brew cask install firefox
-brew cask install spotify
+brew install spotify --cask
 brew install htop
 brew install httpie
 
@@ -30,7 +26,7 @@ brew install tmux
 brew install tmuxinator
 
 # oh my zsh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # pyenv
 curl https://pyenv.run | bash
@@ -38,11 +34,11 @@ curl https://pyenv.run | bash
 # heroku
 brew tap heroku/brew && brew install heroku
 heroku autocomplete
-printf "$(heroku autocomplete:script zsh)" >> ~/.zshrc; source ~/.zshrc
 
 # symbolic links
 
 ln ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
+mdkir ~/.config
 ln -s  ~/.dotfiles/tmuxinator ~/.config/
 ln -s  ~/.dotfiles/init ~/
 ln ~/.dotfiles/zsh/.zshenv ~/.zshenv

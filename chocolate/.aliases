@@ -6,6 +6,9 @@ alias e="$EDITOR"
 alias v="$VISUAL"
 alias rmbu="find ./ -name \"#*#\" | xargs rm"
 
+# vim
+alias vim="nvim"
+
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
 
@@ -64,8 +67,11 @@ alias tm="cd ~/.dotfiles/tmuxinator"
 
 
 # android
-alias pixel="emulator -avd Pixel_3_API_29 -dns-server 8.8.8.8"
+alias pixel="emulator -avd Pixel_4_API_30 -dns-server 8.8.8.8"
 
 # postgres
 alias psql="psql -U postgres"
+
+# ios
+alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
 

@@ -21,7 +21,7 @@ eval "$(pyenv virtualenv-init -)"
 
 
 # Postgres
-export PATH="/usr/local/opt/libpq/bin:$PATH"
+export PATH="/Library/PostgreSQL/12/bin:$PATH"
 
 # Java/Kotlin Config
 
