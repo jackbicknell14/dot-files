@@ -3,6 +3,9 @@ alias ls="ls -a"
 alias ll="ls -al"
 alias ln="ln -v"
 alias e="$EDITOR"
+function cd {
+    builtin cd "$@" && ls -F
+    }
 alias v="$VISUAL"
 alias rmbu="find ./ -name \"#*#\" | xargs rm"
 
