@@ -73,7 +73,8 @@ alias tm="cd ~/.dotfiles/tmuxinator"
 alias pixel="emulator -avd Pixel_4_API_30 -dns-server 8.8.8.8"
 
 # postgres
-alias psql="psql -U postgres"
+# alias psql="psql -U postgres"
+alias postgresconf="vim /usr/local/var/postgresql@12/postgresql.conf"
 
 # ios
 alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"

@@ -18,8 +18,6 @@ windows:
 
   - db: psql
 
-  - notes: vim ~/.dotfiles/notes/wins.md
-
   - htop: htop
 
   - jobs:
