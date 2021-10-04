@@ -7,7 +7,7 @@ windows:
   - mohawk:
       layout: main-horizontal
       # Synchronize all panes of this window, can be enabled before or after the pane commands run.
-      # 'before' represents legacy functionality and will be deprecated in a future release, in favour of 'after'
+      # "before" represents legacy functionality and will be deprecated in a future release, in favour of "after"
       # synchronize: after
       panes:
         -  shell_command:
@@ -27,8 +27,8 @@ windows:
      panes:
        -
        - redis-server
-       - celery worker -A englishscore.interfaces.tasks.celery_worker.celery --loglevel=info
-       - celery -A englishscore.interfaces.tasks.celery_worker.celery beat
+       - celery -a englishscore.interfaces.tasks.celery_worker.celery worker --loglevel=info
+       - celery -a englishscore.interfaces.tasks.celery_worker.celery beat
 
   - logs:
      layout: even-horizontal
