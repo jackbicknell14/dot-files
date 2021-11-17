@@ -5,15 +5,16 @@ root: ~/sandboxes/mohawk-backend
 
 windows:
   - mohawk:
-      layout: main-horizontal
+      layout: 18fb,189x45,0,0[189x33,0,0{52x33,0,0,21,136x33,53,0,37},189x11,0,34,32]
+
       # Synchronize all panes of this window, can be enabled before or after the pane commands run.
       # "before" represents legacy functionality and will be deprecated in a future release, in favour of "after"
       # synchronize: after
       panes:
+        - ipython3 --profile=ipython-mohawk
         -  shell_command:
              - git status
-        - ipython3 --profile=ipython-mohawk
-        - ptw --clear --nobeep --quiet -- --tb=no
+             - echo "Loading tmuxinator from local"
         - flask run
 
   - db: psql
@@ -26,9 +27,9 @@ windows:
      layout: main-vertical
      panes:
        -
-       - redis-server
-       - celery -a englishscore.interfaces.tasks.celery_worker.celery worker --loglevel=info
-       - celery -a englishscore.interfaces.tasks.celery_worker.celery beat
+       - redis-cli flushall && redis-server && redis-cli ping
+       - celery -A englishscore.interfaces.tasks.celery_worker.celery worker --loglevel=info
+       - celery -A englishscore.interfaces.tasks.celery_worker.celery beat
 
   - logs:
      layout: even-horizontal

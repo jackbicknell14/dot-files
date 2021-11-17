@@ -67,7 +67,7 @@ ZSH_THEME="ys"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(osx)
+plugins=(macos)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -104,3 +104,15 @@ HEROKU_AC_ZSH_SETUP_PATH=/Users/jackbicknell/Library/Caches/heroku/autocomplete/
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/jackbicknell/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jackbicknell/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/jackbicknell/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jackbicknell/google-cloud-sdk/completion.zsh.inc'; fi
+autoload -U compinit; compinit
+
+source "/Users/jackbicknell/.dotfiles/zsh/completions.zsh"

@@ -79,3 +79,6 @@ alias postgresconf="vim /usr/local/var/postgresql@12/postgresql.conf"
 # ios
 alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
 
+
+# keyboard
+alias kb="cd /Users/jackbicknell/qmk_firmware/keyboards/splitkb/kyria/keymaps/jackbicknell14/"
