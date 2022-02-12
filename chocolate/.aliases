@@ -82,3 +82,10 @@ alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/Si
 
 # keyboard
 alias kb="cd /Users/jackbicknell/qmk_firmware/keyboards/splitkb/kyria/keymaps/jackbicknell14/"
+
+# doom
+alias doom="~/doom-emacs/bin/doom"
+alias mydoom="cd ~/.doom.d/" 
+alias doomconf="vim ~/.doom.d/config.el"
+alias emacsapp="open -a /Applications/Emacs.app"
+alias org-gtd="vim /Users/jackbicknell/doom-emacs/.local/straight/repos/org-gtd.el"

@@ -26,8 +26,8 @@ windows:
   - jobs:
      layout: main-vertical
      panes:
-       -
-       - redis-cli flushall && redis-server && redis-cli ping
+       - redis-server
+       - redis-cli flushall && redis-cli ping
        - celery -A englishscore.interfaces.tasks.celery_worker.celery worker --loglevel=info
        - celery -A englishscore.interfaces.tasks.celery_worker.celery beat
 

@@ -14,7 +14,7 @@ export PATH="$HOME/.serverless/bin:$PATH"
 # PyEnv Config
 
 export PATH="$HOME/.pyenv/bin:$PATH"
-export PATH=~/.pyenv/shims:$PATH
+export PATH="~/.pyenv/shims:$PATH"
 export PATH=$PATH:/usr/local/sbin
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
@@ -61,4 +61,5 @@ fi
 unset __conda_setup
 # <<< conda init <<<
 
-
+# emacs
+# export PATH="$PATH:/Users/jackbicknell/.emacs.doom/bin"

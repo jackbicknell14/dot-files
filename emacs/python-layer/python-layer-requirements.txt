@@ -1,7 +1,0 @@
-jedi
-flake8
-service-factory
-flake8-mypy
-importmagic
-epc
-json-rpc

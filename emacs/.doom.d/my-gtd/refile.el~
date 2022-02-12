@@ -1,0 +1,19 @@
+;;; my-gtd/refile.el -*- lexical-binding: t; -*-
+
+(defun jack/eval-buffer-in-side-window ()
+  (interactive)
+  (delete-other-windows)
+  (split-window-right -100)
+  (select-window (next-window))
+  (eval-buffer)
+  (select-window (next-window))
+)
+;;(global-set-key "\C-ce" 'jack/eval-buffer-in-side-window)
+(map! "C-c e" 'jack/eval-buffer-in-side-window)
+;;(find-file "~/.org/gtd/inbox.org")
+;;(org-map-entries
+;;   (lambda (
+;;     (org-archive-subtree)
+;;
+;;     )
+;;   )

@@ -108,11 +108,22 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/jackbicknell/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jackbicknell/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/jackbicknell/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jackbicknell/google-cloud-sdk/completion.zsh.inc'; fi
-autoload -U compinit; compinit
 
 source "/Users/jackbicknell/.dotfiles/zsh/completions.zsh"
+eval "$(pyenv init -)"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/jackbicknell/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/jackbicknell/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/jackbicknell/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/jackbicknell/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
