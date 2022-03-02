@@ -36,4 +36,19 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="eserr" value="from englishscore import errors as es_errors" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ESDB" value="from englishscore import FLASK_SQLALCHEMY_DB&#10;from englishscore.adapters.repository import EnglishScoreDB" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="esdb" value="db = EnglishScoreDB(FLASK_SQLALCHEMY_DB.session)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>

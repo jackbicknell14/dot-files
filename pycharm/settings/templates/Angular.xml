@@ -1,0 +1,7 @@
+<templateSet group="Angular">
+  <template name="a-http-interceptor-logging" value="import { HttpInterceptor, HttpHandler, HttpRequest, HttpEvent, HttpResponse } from '@angular/common/http';&#10;import { Observable, tap } from 'rxjs';&#10;&#10;@Injectable({providedIn: $1$})&#10;export class LogInterceptor implements HttpInterceptor {&#10; constructor() {}&#10;&#10; intercept(req: HttpRequest&lt;any&gt;, next: HttpHandler): Observable&lt;HttpEvent&lt;any&gt;&gt; {&#10;  const started = Date.now();&#10;  return next.handle(req).pipe(&#10;   tap(event =&gt; {&#10;    if (event instanceof HttpResponse) {&#10;     const elapsed = Date.now() - started;&#10;     console.log(`Request for \${req.urlWithParams} took \$elapsed$ ms.`);&#10;    }&#10;   })&#10;  );&#10; }&#10;}" description="Angular HttpInterceptor for Logging HttpClient" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="&quot;'root'&quot;" alwaysStopAt="true" />
+    <variable name="elapsed" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

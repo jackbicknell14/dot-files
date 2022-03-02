@@ -1,0 +1,12 @@
+<application>
+  <component name="RainbowSettings">
+    <option name="applyColorsOfRoundForAllBrackets" value="true" />
+    <option name="cycleCountOnAllBrackets" value="true" />
+    <option name="doNOTRainbowifyTheFirstLevel" value="true" />
+    <option name="enableRainbowSquareBrackets" value="false" />
+    <option name="numberOfColors" value="20" />
+    <option name="pressAnyKeyToRemoveTheHighlightingEffects" value="true" />
+    <option name="suppressBigFileCheck" value="true" />
+    <option name="version" value="6.21" />
+  </component>
+</application>

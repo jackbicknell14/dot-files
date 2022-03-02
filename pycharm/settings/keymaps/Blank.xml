@@ -1,5 +1,4 @@
 <keymap version="1" name="Blank" parent="Mac OS X 10.5+">
-  <action id="$Copy" />
   <action id="$Cut" />
   <action id="$SelectAll" />
   <action id="$Undo" />
@@ -344,7 +343,9 @@
   </action>
   <action id="Refresh" />
   <action id="RenameElement" />
-  <action id="Replace" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
+  </action>
   <action id="ReplaceInPath" />
   <action id="Rerun" />
   <action id="RerunTests" />

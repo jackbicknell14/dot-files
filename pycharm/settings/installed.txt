@@ -1,12 +1,21 @@
+DBN
+Dart
 IdeaVIM
 Key Promoter X
+YAML/Ansible support
 com.andrey4623.rainbowcsv
 com.chrisrm.idea.MaterialThemeUI
+com.daynight.plugin
+com.jetbrains.intellij.datalore
 com.markskelton.one-dark-theme
-com.uriyyo.pytest.pytest-plugin
-io.github.qeesung.component.HighlightBracketPair
+de.ax.powermode
+intellij.prettierJS
+izhangzhihao.rainbow.brackets
+lermitage.intellij.extra.icons
 mobi.hsz.idea.gitignore
 net.seesharpsoft.intellij.plugins.csv
+org.tonybaloney.security.pycharm-security
+ru.adelf.idea.dotenv
 ru.meanmail.plugin.requirements
 shorty.mnemonic
 some.awesome

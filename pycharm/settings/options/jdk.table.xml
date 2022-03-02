@@ -1,0 +1,623 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="Python 3.7 (backend)" />
+      <type value="Python SDK" />
+      <version value="Python 3.7.4" />
+      <homePath value="$USER_HOME$/sandboxes/backend/venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/sandboxes/backend/venv/lib/python3.7" type="simple" />
+            <root url="file://$USER_HOME$/sandboxes/backend/venv/lib/python3.7/lib-dynload" type="simple" />
+            <root url="file:///usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7" type="simple" />
+            <root url="file://$USER_HOME$/sandboxes/backend/venv/lib/python3.7/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.2/python_stubs/-96936109" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/backend" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (item-health)" />
+      <type value="Python SDK" />
+      <version value="Python 3.8.0" />
+      <homePath value="$USER_HOME$/sandboxes/item-health/venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/sandboxes/item-health/venv/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/sandboxes/item-health/venv/lib/python3.8/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/sandboxes/item-health/venv/lib/python3.8/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.2/python_stubs/-1309810155" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/item-health" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (mocking-tutorial)" />
+      <type value="Python SDK" />
+      <version value="Python 3.8.0" />
+      <homePath value="$USER_HOME$/sandboxes/scratches/mocking-tutorial/venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/sandboxes/scratches/mocking-tutorial/venv/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/sandboxes/scratches/mocking-tutorial/venv/lib/python3.8/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/sandboxes/scratches/mocking-tutorial/venv/lib/python3.8/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.2/python_stubs/-403711531" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/scratches/mocking-tutorial" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (flask-recreate)" />
+      <type value="Python SDK" />
+      <version value="Python 3.8.0" />
+      <homePath value="$USER_HOME$/sandboxes/flask-recreate/venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/sandboxes/flask-recreate/venv/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/sandboxes/flask-recreate/venv/lib/python3.8/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/sandboxes/flask-recreate/venv/lib/python3.8/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.2/python_stubs/596452580" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/flask-recreate" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.7 (pandas-recreate)" />
+      <type value="Python SDK" />
+      <homePath value="$USER_HOME$/sandboxes/pandas-recreate/venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file:///usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7" type="simple" />
+            <root url="file:///usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/sandboxes/pandas-recreate/venv/lib/python3.7/site-packages" type="simple" />
+            <root url="jar://$USER_HOME$/sandboxes/pandas-recreate/venv/lib/python3.7/site-packages/setuptools-40.8.0-py3.7.egg!/" type="simple" />
+            <root url="file://$USER_HOME$/sandboxes/pandas-recreate/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.3/python_stubs/-1191904478" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/pandas-recreate" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.7 (playground)" />
+      <type value="Python SDK" />
+      <version value="Python 3.7.6" />
+      <homePath value="/opt/anaconda3/envs/playground/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file:///opt/anaconda3/envs/playground/lib/python3.7" type="simple" />
+            <root url="file:///opt/anaconda3/envs/playground/lib/python3.7/lib-dynload" type="simple" />
+            <root url="file:///opt/anaconda3/envs/playground/lib/python3.7/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.3/python_stubs/-398699615" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/playground" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (jacuzzi-mansion)" />
+      <type value="Python SDK" />
+      <version value="Python 3.8.0" />
+      <homePath value="$USER_HOME$/github/jacuzzi-mansion/venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/github/jacuzzi-mansion/venv/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/github/jacuzzi-mansion/venv/lib/python3.8/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/github/jacuzzi-mansion/venv/lib/python3.8/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.2/python_stubs/1730072439" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/github/jacuzzi-mansion" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (flask-heroku)" />
+      <type value="Python SDK" />
+      <version value="Python 3.8.0" />
+      <homePath value="$USER_HOME$/sandboxes/flask-heroku/venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/sandboxes/flask-heroku/venv/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/sandboxes/flask-heroku/venv/lib/python3.8/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/sandboxes/flask-heroku/venv/lib/python3.8/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.3/python_stubs/1989244633" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/flask-heroku" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (venv)" />
+      <type value="Python SDK" />
+      <version value="Python 3.8.0" />
+      <homePath value="$USER_HOME$/sandboxes/playground/sa-mv-app/venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/sandboxes/playground/sa-mv-app/venv/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/sandboxes/playground/sa-mv-app/venv/lib/python3.8/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/sandboxes/playground/sa-mv-app/venv/lib/python3.8/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.2/python_stubs/1644046307" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/playground/sa-mv-app" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (app)" />
+      <type value="Python SDK" />
+      <version value="Python 3.8.0" />
+      <homePath value="$USER_HOME$/ga/wpp/wpp-flask-lab/app/venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/ga/wpp/wpp-flask-lab/app/venv/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/ga/wpp/wpp-flask-lab/app/venv/lib/python3.8/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/ga/wpp/wpp-flask-lab/app/venv/lib/python3.8/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.3/python_stubs/-2031831261" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/ga/wpp/wpp-flask-lab/app" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (explore)" />
+      <type value="Python SDK" />
+      <version value="Python 3.8.0" />
+      <homePath value="$USER_HOME$/ga/wpp/wpp-flask-lab/explore/venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/ga/wpp/wpp-flask-lab/explore/venv/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/ga/wpp/wpp-flask-lab/explore/venv/lib/python3.8/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.8.0/lib/python3.8" type="simple" />
+            <root url="file://$USER_HOME$/ga/wpp/wpp-flask-lab/explore/venv/lib/python3.8/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.3/python_stubs/-1313464043" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/ga/wpp/wpp-flask-lab/explore" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (ourfm)" />
+      <type value="Python SDK" />
+      <version value="Python 3.9.1" />
+      <homePath value="$USER_HOME$/.pyenv/versions/ourfm/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.1/lib/python3.9" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.1/lib/python3.9/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/ourfm/lib/python3.9/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.3/python_stubs/-416221457" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/our-fm" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (whiskey-requests)" />
+      <type value="Python SDK" />
+      <version value="Python 3.9.1" />
+      <homePath value="$USER_HOME$/.pyenv/versions/whiskey-requests/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.1/lib/python3.9" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.1/lib/python3.9/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/whiskey-requests/lib/python3.9/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.3/python_stubs/-1681199465" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/whiskey-requests" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (mohawk-backend)" />
+      <type value="Python SDK" />
+      <version value="Python 3.9.1" />
+      <homePath value="$USER_HOME$/.pyenv/versions/mohawk-backend/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.1/lib/python3.9" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.1/lib/python3.9/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/mohawk-backend/lib/python3.9/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2021.2/python_stubs/231037166" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/jwt" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/six" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/mock" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/nmap" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/annoy" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/attrs" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/polib" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/retry" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/docopt" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/enum34" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/orjson" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/pysftp" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/xxhash" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/chardet" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/futures" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/pyaudio" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/tzlocal" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/aiofiles" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/colorama" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/filelock" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/Markdown" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/paramiko" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/pathlib2" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/requests" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/waitress" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/Werkzeug" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/freezegun" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/ipaddress" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/pyRFC3339" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/typed-ast" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/cachetools" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/Deprecated" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/frozendict" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/pyfarmhash" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/contextvars" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/JACK-Client" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/atomicwrites" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/cryptography" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/click-spinner" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/DateTimeRange" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/pkg_resources" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/python-gflags" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/python-slugify" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/python-dateutil" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8" />
+      <type value="Python SDK" />
+      <version value="Python 3.9.9" />
+      <homePath value="/usr/local/bin/python3.9" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file:///usr/local/Cellar/python@3.9/3.9.9/Frameworks/Python.framework/Versions/3.9/lib/python3.9" type="simple" />
+            <root url="file:///usr/local/Cellar/python@3.9/3.9.9/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload" type="simple" />
+            <root url="file:///usr/local/lib/python3.9/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2021.2/python_stubs/-1199943124" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/jwt" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/six" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/mock" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/nmap" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/annoy" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/attrs" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/polib" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/retry" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/docopt" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/enum34" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/orjson" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/pysftp" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/xxhash" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/chardet" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/futures" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/pyaudio" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/tzlocal" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/aiofiles" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/colorama" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/filelock" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/Markdown" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/paramiko" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/pathlib2" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/requests" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/waitress" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/Werkzeug" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/freezegun" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/ipaddress" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/pyRFC3339" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/typed-ast" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/cachetools" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/Deprecated" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/frozendict" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/pyfarmhash" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/contextvars" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/JACK-Client" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/atomicwrites" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/cryptography" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/click-spinner" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/DateTimeRange" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/pkg_resources" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/python-gflags" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/python-slugify" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/python-dateutil" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.7 (producers)" />
+      <type value="Python SDK" />
+      <version value="Python 3.7.9" />
+      <homePath value="$USER_HOME$/.pyenv/versions/producers/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.pyenv/versions/3.7.9/lib/python3.7" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.7.9/lib/python3.7/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/producers/lib/python3.7/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.3/python_stubs/-1643816799" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/udacity/project-one/starter/producers" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (smorest)" />
+      <type value="Python SDK" />
+      <version value="Python 3.9.2" />
+      <homePath value="$USER_HOME$/.pyenv/versions/smorest/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.2/lib/python3.9" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.2/lib/python3.9/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/smorest/lib/python3.9/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.3/python_stubs/465979353" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/smorest" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (mohawk-clean)" />
+      <type value="Python SDK" />
+      <version value="Python 3.9.2" />
+      <homePath value="$USER_HOME$/.pyenv/versions/mohawk-clean/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.2/lib/python3.9" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.2/lib/python3.9/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/mohawk-clean/lib/python3.9/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.3/python_stubs/667899353" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/mohawk-clean" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (code)" />
+      <type value="Python SDK" />
+      <version value="Python 3.9.2" />
+      <homePath value="$USER_HOME$/.pyenv/versions/3.9.2/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.2/lib/python3.9" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.2/lib/python3.9/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.2/lib/python3.9/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.3/python_stubs/-534114016" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/code" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (cosmic)" />
+      <type value="Python SDK" />
+      <version value="Python 3.9.2" />
+      <homePath value="$USER_HOME$/.pyenv/versions/cosmic/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.2/lib/python3.9" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.2/lib/python3.9/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/cosmic/lib/python3.9/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/sandboxes/code/src" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.3/python_stubs/545196356" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/code" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (cosmic-copy)" />
+      <type value="Python SDK" />
+      <version value="Python 3.9.2" />
+      <homePath value="$USER_HOME$/.pyenv/versions/cosmic-copy/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.2/lib/python3.9" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/3.9.2/lib/python3.9/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.pyenv/versions/cosmic-copy/lib/python3.9/site-packages" type="simple" />
+            <root url="jar://$USER_HOME$/.pyenv/versions/cosmic-copy/lib/python3.9/site-packages/cosmic-0.0.0-py3.9.egg!/" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharm2019.3/python_stubs/1060662176" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/sandboxes/cosmic" />
+    </jdk>
+  </component>
+</application>

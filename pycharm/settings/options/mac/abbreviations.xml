@@ -1,8 +1,8 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
-      <action id="RunClass" />
       <action id="ShowUmlDiagram" />
+      <action id="RunClass" />
     </abbreviations>
   </component>
 </application>
