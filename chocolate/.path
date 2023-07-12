@@ -9,38 +9,30 @@ export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
 
 # Added by serverless binary installer
-export PATH="$HOME/.serverless/bin:$PATH"
+# export PATH="$HOME/.serverless/bin:$PATH"
 
 # PyEnv Config
 
-export PATH="$HOME/.pyenv/bin:$PATH"
-export PATH="~/.pyenv/shims:$PATH"
-export PATH=$PATH:/usr/local/sbin
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
 
-
-# Postgres
-export PATH="/Library/PostgreSQL/12/bin:$PATH"
 
 # Java/Kotlin Config
 
-export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home"
-export ANDROID_HOME="/Users/jackbicknell/Library/Android/sdk"
+# export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home"
+# export ANDROID_HOME="/Users/jackbicknell/Library/Android/sdk"
 
 # Android emulator
-export PATH="/Users/jackbicknell/Library/Android/sdk/emulator:${PATH}"
+# export PATH="/Users/jackbicknell/Library/Android/sdk/emulator:${PATH}"
 
 # Flutter config
-export PATH="$PATH:/Users/jackbicknell/sandboxes/flutter/bin"
+# export PATH="$PATH:/Users/jackbicknell/sandboxes/flutter/bin"
 
 # Node Config
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+# export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 
 # added by Anaconda3 2019.10 installer

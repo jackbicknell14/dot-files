@@ -99,18 +99,11 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.dotfiles/chocolate/.config
 
-# heroku autocomplete setup
-HEROKU_AC_ZSH_SETUP_PATH=/Users/jackbicknell/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-
-source "/Users/jackbicknell/.dotfiles/zsh/completions.zsh"
+export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+eval "$(pyenv init --path)"
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -120,10 +113,24 @@ if [ $? -eq 0 ]; then
 else
     if [ -f "/Users/jackbicknell/opt/anaconda3/etc/profile.d/conda.sh" ]; then
         . "/Users/jackbicknell/opt/anaconda3/etc/profile.d/conda.sh"
+	CONDA_AUTO_ACTIVATE_BASE=false
+
     else
         export PATH="/Users/jackbicknell/opt/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+# For psycopg2
+export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+export PATH="${HOME}/bin:${PATH}"
+
+export PATH="$HOME/.poetry/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 

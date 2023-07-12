@@ -1,0 +1,11 @@
+IdeaVIM
+Key Promoter X
+com.andrey4623.rainbowcsv
+com.chrisrm.idea.MaterialThemeUI
+com.markskelton.one-dark-theme
+io.github.qeesung.component.HighlightBracketPair
+mobi.hsz.idea.gitignore
+net.seesharpsoft.intellij.plugins.csv
+ru.meanmail.plugin.requirements
+shorty.mnemonic
+some.awesome

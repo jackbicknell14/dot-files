@@ -1,0 +1,36 @@
+# ./.tmuxinator.yml
+
+name: mind-paper
+root: ~/sandboxes/mind-paper
+
+windows:
+  - mohawk:
+      layout: 18fb,189x45,0,0[189x33,0,0{52x33,0,0,21,136x33,53,0,37},189x11,0,34,32]
+
+      # Synchronize all panes of this window, can be enabled before or after the pane commands run.
+      # "before" represents legacy functionality and will be deprecated in a future release, in favour of "after"
+      # synchronize: after
+      panes:
+        - cd npm run start
+        -  shell_command:
+             - git status
+             - echo "Loading tmuxinator from local"
+        - flask run
+
+  - db: psql
+
+  - notes: vim .notes.md
+
+  - htop: htop
+
+  - jobs:
+     layout: main-vertical
+     panes:
+
+  - logs:
+     layout: even-horizontal
+     panes:
+        - heroku logs --tail -a mind-paper-apiv1-qa
+
+  - jupyter: cd ~/analytics && conda activate base
+

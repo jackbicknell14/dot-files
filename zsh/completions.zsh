@@ -7,4 +7,4 @@ zstyle ':completion:*:*:*:*:corrections' format '%F{yellow}!- %d (errors: %e) -!
 zstyle ':completion:*:messages' format ' %F{purple} -- %d --%f'
 zstyle ':completion:*:warnings' format ' %F{red}-- no matches found --%f'
 
-jira completion zsh > "${fpath[1]}/_jira"
+# jira completion zsh > "${fpath[1]}/_jira"

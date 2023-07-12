@@ -44,3 +44,4 @@ ln -s  ~/.dotfiles/init ~/
 ln ~/.dotfiles/zsh/.zshenv ~/.zshenv
 ln ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln ~/.dotfiles/vim/.vimrc ~/.vimrc
+ln -s ~/.dotfiles/nvim ~/.config/.nvim
