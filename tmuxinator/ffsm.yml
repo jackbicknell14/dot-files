@@ -1,0 +1,19 @@
+# /Users/jbicknell/.config/tmuxinator/ffsm.yml
+
+name: ffsm
+root: ~/workspace/forks/freemium-forecast-subs-mau
+
+
+windows:
+  - editor:
+      layout: main-vertical
+      panes:
+        - pwd
+        - python src/web/app.py
+        - python src/web/mau_app.py
+        - tsc -w
+        - ./scripts/start_workers.sh
+  - workers:
+      layout: main-vertical
+      panes:
+        - pwd

@@ -1,2 +1,0 @@
-alias sandboxes="cd ~/sandboxes/sandboxes && creds && tmuxinator start sandboxes"
-alias statsball="cd ~/sandboxes/statsball && creds && tmuxinator start statsball"

@@ -1,19 +1,8 @@
-# docker
-# alias run="./run.sh"
-alias drb="docker build . && docker-compose up -d --build"
-alias dl="docker-compose logs -ft"
-# python
-alias prp="poetry run python"
 # Unix
 alias ls="ls -a"
 alias ll="ls -al"
 alias ln="ln -v"
 alias e="$EDITOR"
-function cd {
-    builtin cd "$@" && ls -F
-    }
-alias v="$VISUAL"
-alias rmbu="find ./ -name \"#*#\" | xargs rm"
 
 # vim
 alias vim="nvim"
@@ -26,22 +15,16 @@ alias rm='rm -iv'
 
 # utils
 alias sz="source ~/.zshrc"
-killport () {
-    matching_ports="$(ps -ax | awk -v to_find="$1" 'OFS="\t" {
-                                if ($4 == to_find){print $1, $4};
-                                }')"
-eval kill  $matching_ports
-}
-
 
 # Shortcuts  
-alias chocolate="cd ~/.dotfiles/chocolate"
+alias choc="cd ~/.dotfiles/chocolate"
 alias config="vim ~/.dotfiles/chocolate/.config"
+alias chocpath="vim ~/.dotfiles/chocolate/.path"
 alias scripts="cd ~/.dotfiles/scripts"
 alias a="vim ~/.dotfiles/chocolate/.aliases"
 alias dots="cd ~/.dotfiles"
 alias creds="source ./.creds"
-alias sb="cd ~/sandboxes"
+alias ws="cd ~/workspace"
 
 # git commands:
 alias glog="git log --oneline --decorate --all --graph"
@@ -54,52 +37,22 @@ alias gb="git branch -a"
 alias gp="git push"
 alias gpf="git push --force-with-lease"
 
-# function gcon() {git checkout -b "$1"}
-# function gco () {git checkout "$1" && git pull}
-# function gr () {git rebase -i "$1"}
-# function gbd () {git branch -D "$1" && git remote prune origin && gb}
-
-# music
-alias music="~/.dotfiles/bash/open_music.sh"
-alias endm="~/.dotfiles/bash/close_music.sh"
-
 # dev
 alias dev="~/.dotfiles/scripts/open_dev.sh"
 alias endd="~/.dotfiles/scripts/close_dev.sh"
-alias slack="open -a Slack"
-
-#createproject () {~/sandboxes/template/setup.zsh "$1"}
 
 # load tmuxinator aliases
 source ~/.dotfiles/tmuxinator/.aliases
 alias tm="cd ~/.dotfiles/tmuxinator"
 
-
-# android
-alias pixel="emulator -avd Pixel_4_API_30 -dns-server 8.8.8.8"
-
-# postgres
-# alias psql="psql -U postgres"
-alias postgresconf="vim /usr/local/var/postgresql@12/postgresql.conf"
-
-# ios
-alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
-
-
-# keyboard
+# misc
 alias kb="cd /Users/jackbicknell/qmk_firmware/keyboards/splitkb/kyria/keymaps/jackbicknell14/"
-
-# doom
-alias doom="~/.doom-emacs.d/bin/doom"
-alias mydoom="cd ~/.doom.d/" 
-alias doomconf="vim ~/.doom.d/config.el"
-alias org-gtd="vim /Users/jackbicknell/doom-emacs/.local/straight/repos/org-gtd.el"
-alias statsball="cd ~/sandboxes/football/statsball"
 alias work="(sb && cd work && python main.py)"
-alias convert_js_to_ts_here="(~/.dotfiles/scripts/convert_js_to_ts.sh)"
-alias a_test_run="bash /Users/jackbicknell/sandboxes/ndp/a-test/scripts/run.sh"
-alias a_test_tmuxinator="tmuxinator start a-test"
-alias honeybee_run="bash /Users/jackbicknell/sandboxes/honeybee/scripts/run.sh"
-alias honeybee_tmuxinator="tmuxinator start honeybee"
-alias ten_run="bash /Users/jackbicknell/sandboxes/ten/scripts/run.sh"
-alias ten="tmuxinator start ten"
+alias zshrc="vim ~/.zshrc"
+alias zshenv="vim ~/.zshenv"
+alias dzshrc="vim ~/.dotfiles/zsh/.zshrc"
+alias dzshenv="vim ~/.dotfiles/zsh/.zshenv"
+alias tmuxconfig="vim ~/.tmux.conf"
+alias dtmuxconfig="vim ~/.dotfiles/tmux/.tmux.conf"
+alias hc="(cd ~/workspace/misc/healthchecker && python main.py)"
+alias cloud-sql-proxy="~/cloud-sql-proxy"

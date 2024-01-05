@@ -17,7 +17,6 @@ cd ~
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew update
-brew install spotify --cask
 brew install htop
 brew install httpie
 
@@ -31,14 +30,10 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # pyenv
 curl https://pyenv.run | bash
 
-# heroku
-brew tap heroku/brew && brew install heroku
-heroku autocomplete
-
 # symbolic links
 
 ln ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
-mdkir ~/.config
+mkdir ~/.config
 ln -s  ~/.dotfiles/tmuxinator ~/.config/
 ln -s  ~/.dotfiles/init ~/
 ln ~/.dotfiles/zsh/.zshenv ~/.zshenv

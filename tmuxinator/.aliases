@@ -1,9 +1,1 @@
 alias mohawk="sb && cd mohawk-backend && creds && tmuxinator start mohawk"
-alias fablo="sb && cd fablo && tmuxinator start fablo"
-alias mindpaper="sb && cd mind-paper && creds && tmuxinator start mindpaper"
-alias ga="tmuxinator start ga"
-alias playground="tmuxinator start playground"
-alias ourfm="sb && cd our-fm && creds && tmuxinator start ourfm"
-alias sourmash="tmuxinator start sour-mash"
-alias honeybee="sb && cd honeybee && tmuxinator start honeybee"
-
